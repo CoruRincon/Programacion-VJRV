@@ -44,17 +44,25 @@ public class GameManager : MonoBehaviour {
                 break;
 
             case GameState.AWAIT:
-
+                Time.timeScale = 0.0f;
                 break;
 
             case GameState.PLAYING:
-
+                Time.timeScale = 1.0f;
                 break;
 
             case GameState.PAUSE:
 
                 break;
         }
+    }
+
+    public void SetGameState(GameState thisState) {
+        this.currentState = thisState;
+    }
+
+    public GameState GetGameState() {
+        return currentState;
     }
 
     private IEnumerator SceneLoader(string sceneName) {
@@ -69,6 +77,10 @@ public class GameManager : MonoBehaviour {
             // Activate the scene when it's ready
             if (asyncLoad.progress >= 0.9f) {
                 asyncLoad.allowSceneActivation = true;
+            }
+
+            if (sceneName == "Game") {
+                SetGameState(GameState.AWAIT);
             }
 
             yield return null; // Wait for the next frame

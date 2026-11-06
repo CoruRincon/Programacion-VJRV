@@ -32,6 +32,17 @@ public class PlayerController : MonoBehaviour
     {
         if (rb == null) return;
 
+        if (Input.GetKeyDown(KeyCode.R)) {
+            CameraController.Instance.ChangeCamera();
+        }
+
+        if (GameManager.Instance.GetGameState() == GameManager.GameState.AWAIT) {
+            if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
+                GameManager.Instance.SetGameState(GameManager.GameState.PLAYING);
+            }
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space)) {
             rb.linearVelocityY = jumpForce;
         }
