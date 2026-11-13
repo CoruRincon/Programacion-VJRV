@@ -5,6 +5,9 @@ public class BallMotion : MonoBehaviour {
     [SerializeField]
     private float ballSpeed;
 
+    [SerializeField]
+    private GameObject[] ballShapes;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
 
@@ -16,6 +19,8 @@ public class BallMotion : MonoBehaviour {
     }
 
     public void LaunchBall() {
+        ResetBall();
+
         int direction = Random.Range(0, 4);
         Vector2 motion = Vector2.zero;
 
@@ -41,6 +46,20 @@ public class BallMotion : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(UnityEngine.Collider2D other) {
+
+        if (other.gameObject.tag == "GameArea") {
+
+            Debug.Log(other.gameObject);
+
+            Debug.Log("Out of playing area");
+
+            GameManager.Instance.ChangeGameState(GameManager.GameState.AWAIT);
+
+            transform.position = Vector3.zero;
+
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        }
+
         if (other.gameObject.tag != "ScoreLine") { return; }
 
         if (transform.position.x < 0)
@@ -53,17 +72,34 @@ public class BallMotion : MonoBehaviour {
         transform.position = Vector3.zero;
 
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+
     }
 
-    private void OnTriggerExit2D(Collider2D other) {
-        if (other.gameObject.tag != "GameArea") { return; }
 
-        Debug.Log("Out of playing area");
+    public void ResetBall() {
+        foreach (var ball in ballShapes) {
+            ball.GetComponent<SpriteRenderer>().enabled = false;
+            ball.GetComponent<Collider2D>().enabled = false;
+        }
 
-        GameManager.Instance.ChangeGameState(GameManager.GameState.AWAIT);
+        ballShapes[0].GetComponent<SpriteRenderer>().enabled = true;
+        ballShapes[0].GetComponent<Collider2D>().enabled = true;
+    }
+    public void RandomBall() {
+        foreach (var ball in ballShapes) {
+            ball.GetComponent<SpriteRenderer>().enabled = false;
+            ball.GetComponent<Collider2D>().enabled = false;
+        }
 
-        transform.position = Vector3.zero;
+        int randomIndex = Random.Range(0, ballShapes.Length);
 
-        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        ballShapes[randomIndex].GetComponent<SpriteRenderer>().enabled = true;
+        ballShapes[randomIndex].GetComponent<Collider2D>().enabled = true;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.tag.Equals("Paddle")) {
+            RandomBall();
+        }
     }
 }

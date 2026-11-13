@@ -21,6 +21,9 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 startRotation;
 
+    [SerializeField]
+    private bool impulseJump;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,27 +35,46 @@ public class PlayerController : MonoBehaviour
     {
         if (rb == null) return;
 
-        if (Input.GetKeyDown(KeyCode.R)) {
+        if (Input.GetKeyDown(KeyCode.C)) {
             CameraController.Instance.ChangeCamera();
         }
 
-        if (GameManager.Instance.GetGameState() == GameManager.GameState.AWAIT) {
-            if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
-                GameManager.Instance.SetGameState(GameManager.GameState.PLAYING);
-            }
-            return;
+        switch(GameManager.Instance.GetGameState()){
+            case GameManager.GameStates.DEAD:
+                if (Input.GetKeyDown(KeyCode.R)) {
+                    GameManager.Instance.LoadScene("Game");
+                }
+                return;
+
+            case GameManager.GameStates.AWAIT:
+                if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
+                    GameManager.Instance.SetGameStates(GameManager.GameStates.PLAYING);
+                }
+                return;
+            
+            case GameManager.GameStates.PAUSE:
+                if (Input.GetKeyDown(KeyCode.Escape)) {
+                    GameManager.Instance.SetGameStates(GameManager.GameStates.PLAYING);
+                }
+                break;
+
+            case GameManager.GameStates.PLAYING:
+                if (Input.GetKeyDown(KeyCode.Escape)) {
+                    GameManager.Instance.SetGameStates(GameManager.GameStates.PAUSE);
+                }
+                break;
         }
 
         if (Input.GetKeyDown(KeyCode.Space)) {
-            rb.linearVelocityY = jumpForce;
+            if(impulseJump)
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            else
+                rb.linearVelocityY = jumpForce;
+
+            AudioManager.Instance.PlayEffectPlayer("Jump");
         }
 
         UpdateModel();
-
-        Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
-        if (screenPosition.y > Screen.height || screenPosition.y < 0) {
-            Debug.Log("Out of bounds");
-        }
     }
 
     private void UpdateModel() {
@@ -73,5 +95,19 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(newRotation);
 
         rb.angularVelocity = 0.0f;
+    }
+
+    public void OnCollisionEnter2D(Collision2D other) {
+        if(other.transform.tag.Equals("Obstacle")){
+            GameManager.Instance.SetGameStates(GameManager.GameStates.DEAD);
+            AudioManager.Instance.PlayEffect("Crash");
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D other) {
+        if(other.transform.tag.Equals("Obstacle")){
+            GameManager.Instance.AddPoint(1);
+            AudioManager.Instance.PlayEffect("Score");
+        }
     }
 }

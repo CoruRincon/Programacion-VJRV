@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         if (currentState == GameState.AWAIT) {
             if (Input.anyKeyDown) {
                 PaddleL.GetComponent<NPCController>().enabled = false;
-                GameManager.Instance.ChangeGameState(GameManager.GameState.PLAYING);
+                ChangeGameState(GameManager.GameState.PLAYING);
                 ball.GetComponent<BallMotion>().LaunchBall();
             }
         }

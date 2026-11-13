@@ -1,68 +1,121 @@
 using System.Collections;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+using TMPro;
 
 public class GameManager : MonoBehaviour {
 
     public static GameManager Instance;
 
-    public enum GameState {
+    public enum GameStates {
         MENU,
         LOADING,
         AWAIT,
         PLAYING,
-        PAUSE
+        PAUSE,
+        DEAD
     }
 
-
+    [SerializeField]
+    private GameStates currentState;
 
     [SerializeField]
-    private GameState currentState;
+    private float score;
 
     [SerializeField]
     private float highScore;
 
     [SerializeField]
-    private bool isPaused;
+    private TextMeshProUGUI scoreText; 
+    
+    [SerializeField]
+    private TextMeshProUGUI highScoreText; 
+    
+    [SerializeField]
+    private GameObject awaitPanel; 
 
-    void Start() {
+    [SerializeField]
+    private GameObject deadPanel; 
+
+    void Awake() {
         if (Instance == null) {
             Instance = this;
         }
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(transform.parent);
+    }
+
+    void Start(){
+        LoadScene("Game");
     }
 
     // Update is called once per frame
     void Update() {
         switch (currentState) {
-            case GameState.MENU:
+            case GameStates.MENU:
 
                 break;
 
-            case GameState.LOADING:
+            case GameStates.LOADING:
 
                 break;
 
-            case GameState.AWAIT:
+            case GameStates.AWAIT:
+                Time.timeScale = 0.0f;
+                UpdateScores();
+
+                if(awaitPanel != null)
+                    awaitPanel.SetActive(true);
+                if(deadPanel != null)
+                    deadPanel.SetActive(false);
+
+                break;
+
+            case GameStates.PLAYING:
+                Time.timeScale = 1.0f;
+
+                if(awaitPanel != null)
+                    awaitPanel.SetActive(false);
+                    
+                UpdateScores();
+                break;
+
+            case GameStates.PAUSE:
                 Time.timeScale = 0.0f;
                 break;
 
-            case GameState.PLAYING:
-                Time.timeScale = 1.0f;
-                break;
+            case GameStates.DEAD:
+                Time.timeScale = 0.0f;
 
-            case GameState.PAUSE:
+                if(deadPanel != null)
+                    deadPanel.SetActive(true);
 
+                if(score > highScore){
+                    highScore = score;
+                    UpdateScores();
+                }
                 break;
         }
     }
 
-    public void SetGameState(GameState thisState) {
+    private void FindComponents() {
+        scoreText = GameObject.Find("ScoreText").GetComponent<TextMeshProUGUI>();
+        highScoreText = GameObject.Find("HighScoreText").GetComponent<TextMeshProUGUI>();
+        awaitPanel = GameObject.Find("AwaitPanel");
+        deadPanel = GameObject.Find("DeadPanel");
+    }
+
+    public void SetGameStates(GameStates thisState) {
         this.currentState = thisState;
     }
 
-    public GameState GetGameState() {
+    public GameStates GetGameState() {
         return currentState;
+    }
+
+    public void LoadScene(string sceneName) {
+        StartCoroutine(SceneLoader(sceneName));
     }
 
     private IEnumerator SceneLoader(string sceneName) {
@@ -78,12 +131,25 @@ public class GameManager : MonoBehaviour {
             if (asyncLoad.progress >= 0.9f) {
                 asyncLoad.allowSceneActivation = true;
             }
-
-            if (sceneName == "Game") {
-                SetGameState(GameState.AWAIT);
-            }
-
+            
             yield return null; // Wait for the next frame
         }
+
+        if (sceneName == "Game") {
+            FindComponents();
+            score = 0;
+            UpdateScores();
+            SetGameStates(GameStates.AWAIT);
+        }
+
+    }
+
+    public void UpdateScores() {
+        highScoreText.text = $"High Score \n{highScore}";
+        scoreText.text = $"Score \n{score}";
+    }
+
+    public void AddPoint(int amount) {
+        score += amount;
     }
 }

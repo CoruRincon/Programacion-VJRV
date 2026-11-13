@@ -34,8 +34,14 @@ public class CameraController : MonoBehaviour {
             Instance = this;
         }
 
-        Camera2D.SetActive(true);
-        Camera3D.SetActive(false);
+        if(PlayerPrefs.GetString("CameraMode").Equals("2D") || PlayerPrefs.GetString("CameraMode") == null ) {
+            Camera2D.SetActive(true);
+            Camera3D.SetActive(false);
+        } 
+        else if(PlayerPrefs.GetString("CameraMode").Equals("3D")){
+            Camera2D.SetActive(false);
+            Camera3D.SetActive(true);
+        }
 
         scoreText.font = Font2D;
         highScoreText.font = Font2D;
@@ -53,9 +59,11 @@ public class CameraController : MonoBehaviour {
         if (Camera2D.activeInHierarchy) {
             scoreText.font = Font2D;
             highScoreText.font = Font2D;
+            PlayerPrefs.SetString("CameraMode", "2D");
         } else {
             scoreText.font = Font3D;
             highScoreText.font = Font3D;
+            PlayerPrefs.SetString("CameraMode", "3D");
         }
 
         scoreText.UpdateFontAsset();
