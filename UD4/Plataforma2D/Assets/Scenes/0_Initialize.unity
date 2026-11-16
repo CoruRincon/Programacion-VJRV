@@ -187,7 +187,7 @@ MonoBehaviour:
   musicEnabled: 1
   masterVolume: 1
   musicVolume: 1
-  effectVolume: 0.5
+  effectVolume: 0.25
   actualMusicVolume: 0
   actualEffectVolume: 0
   isMuted: 0

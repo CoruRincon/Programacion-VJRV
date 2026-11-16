@@ -1,8 +1,14 @@
+using System;
+using System.Collections;
 using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
+
+    private SpriteRenderer sr;
+    Rigidbody2D rb;
+
     // Update is called once per frame
     [SerializeField]
     float motionVelocity = 1f;
@@ -27,11 +33,28 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private ParticleSystem dustParticles, bloodParticles;
 
+    public bool hasStarPower;
+
     bool mapActive = false;
+
+    private readonly Color[] rainbow =
+    {
+        Color.red,
+        new Color(1f, 0.5f, 0f),   // Orange
+        Color.yellow,
+        Color.green,
+        Color.blue,
+        new Color(0.29f, 0f, 0.51f), // Indigo
+        new Color(0.56f, 0f, 1f)     // Violet
+    };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
+        if (sr == null)
+            sr = GetComponent<SpriteRenderer>();
 
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
     }
 
     // Update se llama una vez por cada frame
@@ -49,8 +72,6 @@ public class PlayerController : MonoBehaviour {
         // Lectura del eje de entrada horizontal
         float xMotion = Input.GetAxisRaw("Horizontal");
 
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
-
         if (xMotion > 0.2f) {
             sr.flipX = false;
         }
@@ -58,8 +79,6 @@ public class PlayerController : MonoBehaviour {
             sr.flipX = true;
         }
 
-        // Referencia al Rigidbody2D del gameObject que contiene este script
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         // Se genera un nuevo vector con la velocidad a aplicar
         Vector2 speedVector = new Vector2(xMotion * motionVelocity, rb.linearVelocityY);
@@ -89,10 +108,11 @@ public class PlayerController : MonoBehaviour {
         // y que termine en donde indique el segundo parámetro del método DrawLine()
         Debug.DrawLine(raycastOrigin, raycastEnd, Color.black);
 
-        RaycastHit2D hit = Physics2D.CapsuleCast(raycastOrigin, rayRadius, CapsuleDirection2D.Horizontal, 0.0f, Vector2.down, rayLength, groundLayer);
-        //RaycastHit2D hit = Physics2D.Raycast(raycastOrigin, Vector2.down, rayLength, groundLayer);
+        RaycastHit2D hit = Physics2D.Raycast(raycastOrigin, Vector2.down, rayLength, groundLayer);
+        RaycastHit2D hitRight = Physics2D.Raycast(raycastOrigin - Vector2.right, Vector2.down, rayLength, groundLayer);
+        RaycastHit2D hitLeft = Physics2D.Raycast(raycastOrigin - Vector2.left, Vector2.down, rayLength, groundLayer);
 
-        if (hit) {
+        if (hit || hitLeft || hitRight) {
             isGrounded = true;
 
             if (Mathf.Abs(xMotion) > 0) {
@@ -131,14 +151,18 @@ public class PlayerController : MonoBehaviour {
 
         bloodParticles.transform.position = new Vector2(bloodPos.x, bloodPos.y - 0.5f);
         bloodParticles.Play();
+
+        rb.bodyType = RigidbodyType2D.Static;
+
+        this.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         switch(other.gameObject.tag) {
             case "PowerUp":
-                AudioManager.Instance.PlayMusic("StarMusic");
                 other.enabled = false;
                 Destroy(other.gameObject);
+                StartCoroutine(StarPowerUpTimer());
                 break;
 
             case "Coin":
@@ -151,5 +175,31 @@ public class PlayerController : MonoBehaviour {
             default:
                 return;
         }
+    }
+
+    private IEnumerator StarColors() {
+        int index = 0;
+        WaitForSeconds wait = new WaitForSeconds(0.05f);
+
+        while (hasStarPower) {
+            sr.color = rainbow[index];
+            index = (index + 1) % rainbow.Length;
+            yield return wait;
+        }
+    }
+
+    private IEnumerator StarPowerUpTimer() {
+        hasStarPower = true;
+        AudioManager.Instance.PlayMusic("StarMusic");
+
+        StartCoroutine(StarColors());
+
+        yield return new WaitForSeconds(8.5f);
+        AudioManager.Instance.PlayMusic("GameMusic");
+        hasStarPower = false;
+
+        StopCoroutine(StarColors());
+
+        sr.color = Color.white;
     }
 }

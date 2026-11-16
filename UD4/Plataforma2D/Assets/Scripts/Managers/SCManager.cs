@@ -32,7 +32,7 @@ public class SCManager : MonoBehaviour {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
         asyncLoad.allowSceneActivation = false;
 
-        new WaitForSeconds(delay);
+        yield return new WaitForSeconds(delay);
 
         while (!asyncLoad.isDone) {
             // Optionally, you can display loading progress here
@@ -49,6 +49,9 @@ public class SCManager : MonoBehaviour {
 
         if (sceneName == "Game") {
             GameManager.Instance.InitializeGame();
+        }
+        if (sceneName == "GameOver") {
+            GameManager.Instance.SetGameState(GameManager.GameStates.DEAD);
         }
     }
 }

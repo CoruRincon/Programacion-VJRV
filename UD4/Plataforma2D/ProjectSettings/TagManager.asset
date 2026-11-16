@@ -8,6 +8,7 @@ TagManager:
   - PowerUp
   - Coin
   - Ground
+  - SurpriseBlock
   layers:
   - Default
   - TransparentFX

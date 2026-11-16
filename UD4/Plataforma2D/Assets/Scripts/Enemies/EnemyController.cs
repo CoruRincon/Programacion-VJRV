@@ -61,13 +61,16 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.tag == "Player" && !stomped) {
+            if(!other.transform.GetComponent<PlayerController>().enabled) {
+                return;
+            }
 
             Vector2 playerPos = other.transform.position;
 
-            if (playerPos.y <= transform.position.y + 0.5f) {
+            if (playerPos.y <= transform.position.y + 0.5f && !other.transform.GetComponent<PlayerController>().hasStarPower) {
                 AudioManager.Instance.PlayEffect("PlayerHit", false);
                 other.transform.GetComponent<PlayerController>().Die();
-                //SCManager.Instance.LoadScene("GameOver", 5.0f);
+                SCManager.Instance.LoadScene("GameOver", 5.0f);
                 rightMotion = !rightMotion;
                 return; 
             }
