@@ -1,0 +1,5635 @@
+fileFormatVersion: 2
+guid: fa1ca9261de9d6a43a0b618bacc21907
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6931255543426057193
+    second: ditzydoofull_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 65
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ditzydoofull_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e30e518134c03060800000000000000
+      internalID: 6931255543426057193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991c00b11a4ebe4db9e58c4f19beaf4
+      internalID: 1061217892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724b41fb6787b1a4d986911a0b1297a6
+      internalID: 457034388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc193c9d9deda0f4b81058a589e61773
+      internalID: 9891802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080a627e3c4b553469452a3ee0aeca4a
+      internalID: -923084237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_5
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf9d8f52f8a4f34b8987cd87cbb9bdf
+      internalID: -1016568656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c622f26faedeb4a8a355caebd2f5d8
+      internalID: -1526760650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82724b51479652642ab1bd2cb00fa0ab
+      internalID: -1929236451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95d04a89e9175341a0d73911a1e7d37
+      internalID: 1591128370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_9
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822f3a86baee504449c1079a9d326f0e
+      internalID: -1659101842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_10
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b540bd758e89c9b48b313d2638d2cd09
+      internalID: -152146668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_11
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dff5ea42b726545b39d7d50b15a25d
+      internalID: -205213109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_12
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 882
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011cd8e62b48302489a55ec61433eeb3
+      internalID: 131067579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6920b2f38f7d94d9377b43be986f85
+      internalID: 1207630131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0948d54be2356f046b98269280ff32cd
+      internalID: 97205144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32665b68ac61b948af7bad41b5becd2
+      internalID: 819765974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_16
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1956f935f462814a9734498b5743ca3
+      internalID: 1263962645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6cf9cebe63e4645a2e09e4279254e3
+      internalID: -1020487720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_18
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759c3a5515fd38b4d93628b2cca4f9ff
+      internalID: 622172015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41e030f9d6fe8b4fac38895bb4acb02
+      internalID: 1350436386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_20
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d5e3db77a71b4b94f91016bbf0679
+      internalID: -1818014049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_21
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef9128aac848424c812e21c80a86556
+      internalID: 1723417128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_22
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2721fd000076047afa05c869608fe7
+      internalID: 1036988267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a00e4dbf189ad45be1b721cc028baf
+      internalID: -494342202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_24
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9addd63fe80ebd489726dc34fdf6c66
+      internalID: -402851769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_25
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32e2e05fd88e3f478d1c34d811205cc
+      internalID: -203138067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_26
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcf5da2e10eb0d4e8abacafd61f81e0
+      internalID: -2143542570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_27
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56d899501286d747ba6b80a00c09bb0
+      internalID: 1473109434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_28
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d95868f35a15840a13a47590030aa5
+      internalID: -1378380277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_29
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8590a8ed994a2e43aff887f90f40836
+      internalID: 983036732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_30
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c6c025530bf5f47a3b24942346d533
+      internalID: -1176128833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_31
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742d8e2b5d8f8b847b862985a65dd630
+      internalID: -460987609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_32
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76e34ecb64525b46aa4cf05175aa6b5
+      internalID: -43855928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_33
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d1301fb2e6b05428cf12beac68eab0
+      internalID: -636040410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_34
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d8ae9c9b728244d8bff8b76a1ad3dc
+      internalID: -1637741692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_35
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7347fee516c7b604c8ad0029f91b00a5
+      internalID: 1400337481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_36
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1028cb1d9a1284aaab60111411dc8b
+      internalID: -1197314769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_37
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a797f98b6edff07418c2bce2851544f8
+      internalID: -1928386727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_38
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0595e64b3f9f0fa48a577c34e543e437
+      internalID: 125766717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_39
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993c3a3b7f204bf438d65ee8b1874ce1
+      internalID: -2009751698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_40
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963280ecef3330445a8dc6c15d4be7ec
+      internalID: 1202364247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_41
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c4d7d7d85a9f945bc4710cb1946c20
+      internalID: 898330128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_42
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 802
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f150eb090ae074e9214d3e8c0c8c3d
+      internalID: -32957634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa50e05160148cf45b1f8a535a3af3d7
+      internalID: 1667343521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebba028693d5d8745b0022011e6a496e
+      internalID: 1872799247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6635fde1dc6e22448c9fd6fda3cca21
+      internalID: -338327589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_46
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85da59ff800aa084fb09361c8842600b
+      internalID: 1529114059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_47
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543a35b6701421941b38304d936e8571
+      internalID: -638553014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_48
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f55a9f8e3958cc4e97bd89873ce5eea
+      internalID: -1202400428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_49
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d98cc35e78124686ec23d5a59a95c
+      internalID: 1008588155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_50
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654895c95e10c2244921ed04a2ade335
+      internalID: -1538601275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_51
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd8e9c5ccbba6e4f90e0c5b6e7a95a3
+      internalID: -1211766213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_52
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc762e5364e570428eaf966a2978d59
+      internalID: -1161023554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_53
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08111f024eeb27a4a8d9f581a8a9302b
+      internalID: -1383468916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_54
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f669e45e528fa48b3db123b2f61153
+      internalID: -1517388454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_55
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4de248af1732044d8035c0875992d3d
+      internalID: -307339089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_56
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde8210fbf249d44fba69f8d57ff7229
+      internalID: 1645703089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_57
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb540196d489fd4baf005bf7a9c6957
+      internalID: 1503861972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_58
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc6a466b90bc7e42bed8678528f2fff
+      internalID: 525914071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_59
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995800993f1407408109272c4e398b5
+      internalID: -577021906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_60
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1492045a440b3c4d85d805fcd23a1e6
+      internalID: -692578674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_61
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68de2c36ea81338429ae255e20fd80dd
+      internalID: 1727662536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_62
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e7465fa5ac0a0449c083d77aabab10
+      internalID: -1443820147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_63
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412876c3728e9844a8257be167761e3
+      internalID: -1852779489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_64
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7205e19ca4725d444bce2d7f61264d62
+      internalID: 1382493475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_65
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7e7681d8163ca4ca0a24a91baebc58
+      internalID: 1455597639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_66
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c777ab5eeca9b6246b497acb0d3b27de
+      internalID: -1014317588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_67
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c10ca88c471a0e408fc6471ee08e3fc
+      internalID: -791370238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_68
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ba5ca7cdd26248b7f365c48e77e42
+      internalID: 484187593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_69
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c961499f119cd4695e4af6ca0ed142
+      internalID: 1742726200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_70
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b366e95ac01f42887d1772658780b
+      internalID: -251827493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_71
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba73e8502e1bc488a0d30dc8327d21
+      internalID: 1652384844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_72
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 722
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0300fefadf2de3e47871b84119f07af7
+      internalID: -213678137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a338f97fb36a94abf3caa853d093fd
+      internalID: 1743008740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_74
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde9dacfee4f4a449aa082b7d4c9e75a
+      internalID: 1685010749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_75
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97b3cca6a14d834b9f42c427e6b647b
+      internalID: -844018156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_76
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15d5718821e70c4e8e53a4370e42429
+      internalID: 521355701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_77
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cda8a52d261dd40a68554988d9711d
+      internalID: 1343605324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_78
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87df51dbfcb8ce4e8214e2ed1971aa4
+      internalID: 1500924543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_79
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff96e3278a1fc034a9c6c401f21dad87
+      internalID: 616588014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_80
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a595b2d248b4b804d8e495d8024085bf
+      internalID: -1471503657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_81
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0343b07480ec54ca3d0d95b2751851
+      internalID: 1906166913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_82
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f30cbe0b1958ff4a988f425594bf70c
+      internalID: 114585166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_83
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050ac660b711dae46bd3162a4ae6c521
+      internalID: 56856481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_84
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d817fd98f99bea440a7040046e8c9e66
+      internalID: 1050102880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_85
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940275e80c167624a8b9ad920e655552
+      internalID: 80083039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_86
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad69eff298a7654d89131475ced080e
+      internalID: -1537191420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_87
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0fcf097afa3fd4085c6a416bbbb434
+      internalID: -241205923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_88
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03f922a91dc3b34f9ad5017943186dc
+      internalID: -554078368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_89
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dc4441281847b4993666fd71e9c3c6
+      internalID: 315781902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_90
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ee72619605b64fa970a884eb13778
+      internalID: 1242793746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_91
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a71eb74488dcf543a72f0f842e3e4e5
+      internalID: 800848179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_92
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d415d46590aacc84283e4bdd447a9fb5
+      internalID: 1571994558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_93
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609d940c8ee93b429987b89f867e766
+      internalID: 454885816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_94
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34420299a48918944b6818a6b04a2802
+      internalID: 791608658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_95
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc7c48672566f54a9eb4c5202fba69d
+      internalID: -675058677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_96
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3b28d209461cb41911c82a764d3964
+      internalID: -103660089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_97
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2118b195053ab4ba66fd0561093072
+      internalID: 1954628796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_98
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fc4cf7df53cc2438607f2bac684be4
+      internalID: 1558144988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_99
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b151bd579d88a47b8af378b03b8ac1
+      internalID: -1834532592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_100
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fca5910b378bb148b25992e48b43260
+      internalID: -1615032853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_101
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6874dc12f88ff2e44bb934e10698bd89
+      internalID: -502430267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_102
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 642
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b50eca40e2bfdd43b70fe222d8cbf38
+      internalID: 15897368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_103
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e2a73802e2334995b3bac50bf5efc
+      internalID: -738924142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_104
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc778e7020c924cb7c88fb05360ca4
+      internalID: -137956914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_105
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c023b038e779db499be2be73e2e5fc4
+      internalID: 909505987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_106
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fb5bf0e8a14d34ab27bc1480e4e8b1
+      internalID: 1957367501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_107
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44fe343473437e44bebb6e2ad89e611
+      internalID: 1076976012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_108
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc0bd1e76ab94f47a3c2845e7e1e2f6
+      internalID: 1296167574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_109
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b16eb56d9d5e846a1f833a1054d920
+      internalID: 1718259195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_110
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb9973cf858f8a4a99d16e30b04056e
+      internalID: -2028199079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_111
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdb71f61601b9a4bb104446a38319ab
+      internalID: -1417649667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_112
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3696f951595a8004990a7da231cf394e
+      internalID: 128813124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_113
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9ba97b64d99174eb3d8a0e6cc06134
+      internalID: 661746767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_114
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe457f35c1eeb4418295f7893fe33bf
+      internalID: 1889333872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_115
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b11485cd66b12469f79e979ed23809
+      internalID: -1722072792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_116
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92e65ba3f8864a4ca7319f976bc9535
+      internalID: -682994082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_117
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70fb7734992cb84386f2cb1b2802c22
+      internalID: -558061623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_118
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5357be100e455240b46d787cf33b105
+      internalID: -1116018373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_119
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d28c4f81de9d447aa4738c44f40e8f
+      internalID: -643084483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_120
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcce21121595d214295ae491c03f74cf
+      internalID: -1575606188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_121
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef002b85445f4424b98e3d09416f2998
+      internalID: -777409863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_122
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8354580c464dcce498270875aed4e0a1
+      internalID: 1151111723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_123
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b638ca17c6845d4390eca6ac2cfafdb
+      internalID: -1095144667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_124
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14176752e5e808343b00544e944aff4a
+      internalID: 836883261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_125
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422a9263f3ae0b54cbdf659f4015523c
+      internalID: -1613409229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_126
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d664c8863b476a64f8cef23c4cc9aeaa
+      internalID: -1625396323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_127
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3229db9d467a9eb4a91db09fff83894c
+      internalID: -1937166778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_128
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f50f2647e5aeca4f9bdf28c6a9ede43
+      internalID: 84879322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_129
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee44e828f82c7c24d801459554e2ceff
+      internalID: -1566875539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_130
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a1ae76d299f0449b2301e49eecad4b
+      internalID: 1291577152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_131
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276ba4f9b97454f478294570741b5a09
+      internalID: -1799972587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_132
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 562
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eefac77005572f4f9cda2d4131433ed
+      internalID: 201090298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_133
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10782e7517ed5ed4daae2260bb1d32ab
+      internalID: -717026858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99834ea7a2df4e04795d48db49698f5b
+      internalID: -1275321680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_135
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d2b873ed1ad134eaced2ea4150ef5e
+      internalID: -318386037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_136
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bc2b6a85d040e4cb10db4ce3bce995
+      internalID: 1103203679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_137
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443b580db086635448081baf5c9edc00
+      internalID: -1632486066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_138
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cb8f5ce9d0294e962daf7b7d45b34
+      internalID: 603029990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_139
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8692aed6c1a27334f9e4137e7fe936f3
+      internalID: -926814872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_140
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8a1606e9537bc48aa314fefa93c6bb
+      internalID: -1604147431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_141
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608cca23d7695254c9186fb125a0370d
+      internalID: -1115640611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_142
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b99f28bb3ac3549a64d14597a4fa54
+      internalID: -1415801094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_143
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d5242517461a54d8f9363a73e03a18
+      internalID: -1375568222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_144
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c487252764ec644bc5b478fa4b52dc
+      internalID: -311697168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_145
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f2ea5c4b20484aac06f4afe41da8a
+      internalID: 100659659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_146
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ff954a4600b0d4183241ccfbc1f956
+      internalID: -1692862548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_147
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e85ef5a1025f845b820ab7a3d26c7a
+      internalID: 1502502383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_148
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1f490ba1dadd24e9dacbe45fc86ab8
+      internalID: 130954165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_149
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b097077a9959cd468b81c91424c2254
+      internalID: -614406406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_150
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcf9d211b572494bb59c896e5074b28
+      internalID: -1495575734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_151
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd6ef873fb9fa74fb5ee13380bdb27c
+      internalID: 551001636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_152
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da5bdafcd4bd5c43923f7361fe8741c
+      internalID: 1697574537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_153
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0247618cddc49af47a616fa0d827f219
+      internalID: -1168563733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_154
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500a4953dbc0bb4f9b0a0d9510ad2b5
+      internalID: -2035858881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_155
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d28de0956946f498749290892058b4
+      internalID: 27729449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_156
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703cc05b42b94604da010f31f8886dfd
+      internalID: 2065414601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_157
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50772d6ae08af044cab31d7512c869eb
+      internalID: -265749694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_158
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5753120e03dc11f4686049eff9a2742f
+      internalID: -1915932720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_159
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ded3d7882587c41b8759d36fb43a73
+      internalID: -1861915240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_160
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1e79fa5815c504481d72469bfc190d
+      internalID: 878455092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_161
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318f7585c8ac336408772404ebf3efe7
+      internalID: -711306099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_162
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 482
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2a72dd0b7b6ce42914c4a61f7bb6b5
+      internalID: 912284984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_163
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7365eb4a19362429e4726aaf3154d7
+      internalID: -68390360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_164
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e768b36822e32ae43b8cb3e2c7ea0229
+      internalID: 216975079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_165
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8728f05e26f894093e7f04e92d0389
+      internalID: -1362736360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_166
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e22f1f4eb4a09048ad5c6576f07012a
+      internalID: 338619365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_167
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdf3c50a6d72f347ba19adbe73814f5
+      internalID: -2087602094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_168
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1c5c48e87d7f24dbc2a6f0a374de18
+      internalID: -2041500043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_169
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781947e03f055f14fb68f2d7489cc896
+      internalID: -864806705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_170
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e7e7067e47beb41b7153fa5d8e7ddf
+      internalID: 983166674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_171
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f8c3a1e37e7594a83d2b8fd2c4da0f
+      internalID: 329650411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_172
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13da2a5c81b98b04996fa1bff1ee2e46
+      internalID: -2081176761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_173
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c48c7f580c64da47bb65ca24c41bbb7
+      internalID: 762203712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_174
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070ab7a3ab76e54c91f9d5e4da6c73a
+      internalID: -1115465380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_175
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4921ae433429a994fb036d73cbd6631e
+      internalID: 1590762856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_176
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986247253c7f4ef4cb9fabf1d215f002
+      internalID: 940802743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_177
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7564956e03e49e54fb773b7303ba7964
+      internalID: 701313168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_178
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de7bb74b0a7df044943341c697fe526
+      internalID: -534686828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_179
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d473b15040002c46b004167f68a788f
+      internalID: 768459897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_180
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2ad83a5a112a640902f214e25d4f85
+      internalID: 1203137506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_181
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3166a7bcf55d8944a8b84bb893b96a8b
+      internalID: 259020707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_182
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1bab096a5535948b437d43a320dd4b
+      internalID: -2089926936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_183
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371bc788a53b0a44fbaf2071ab56d5a7
+      internalID: -1050476764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_184
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b81044f300cc9498c9a8846878a603
+      internalID: 312518605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_185
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442d577f1f5123c42840dfcad2d60ca1
+      internalID: -1549530294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_186
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db87892035e0bb64b94976d6275dfe9f
+      internalID: 236082807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_187
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133506a8357c1d341bc4440114f2e016
+      internalID: -866822406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_188
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd794478cf671c49b97240a1ab9ea38
+      internalID: 965352976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_189
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659afb2c3bb610c43870f452c789f3fe
+      internalID: 159196926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_190
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4112a4c809b5f3544bb3de52c25c7143
+      internalID: -1785742244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_191
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aecd2ec350423418c16d4539810dfd
+      internalID: -1826913628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_192
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 402
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493a0ee3bf3c9f34489cf03b08af97e9
+      internalID: 351466507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_193
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec4fbb31a66e6846b8055969a20bb2f
+      internalID: -423846294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_194
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30e17434c371a84ea8d0257d37fab33
+      internalID: 1234664540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_195
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90756263903bd05499a1d282958257f1
+      internalID: 704229000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_196
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f886e7b73d0be45468e4029b88381e72
+      internalID: 2039530454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_197
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baed8adc857f9a4590d0584c4be19b8
+      internalID: -482564911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_198
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817e7751468a01a4588b0db3ccd22ecd
+      internalID: -988882855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_199
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9996461e606b6c24081d4cf21d6c693b
+      internalID: 716617578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_200
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727170d3bc9ec9b48a0d734cf8a47a81
+      internalID: -2009404169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_201
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c4102e202e3f14782d250df111e9ce
+      internalID: -545665340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_202
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 322
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ac43130fc678f498b451b4c06a7d24
+      internalID: 1070287879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_203
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37e16e9f58e5a64990c789740eab8cf
+      internalID: -550669265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_204
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1b20f4be5bdb148b8bac91d8f2bca5
+      internalID: -1385017163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_205
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0266fc63d7c6641ac23bebf06f8781
+      internalID: -949690568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_206
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a530b2b5be46a54595b3c2f46b0d033
+      internalID: -519100701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_207
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed3ae38128a734d9d27f31d8e8b758
+      internalID: 501114971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_208
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e634f81705c8a594b8f00816383a5bfa
+      internalID: 1796454082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_209
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97419f6dfadda0848a5445716238a640
+      internalID: -186475004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_210
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f8558783f6bb4c9c0994617e7449d
+      internalID: -1635885357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_211
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1e68b0022e74f439525fb4c6094d25
+      internalID: 1176566914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_212
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 242
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee99739a6f081284fb6fd892522c1d62
+      internalID: 614612726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_213
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aaec3364665d24dbb86081eda8a644
+      internalID: -419916823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_214
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ce824d34d66094f9f2b99d2980ec55
+      internalID: -179096851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_215
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778f0c11688379247b0e901dd95b5505
+      internalID: 1534538907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_216
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93ada6a9793e874aa13e211d7e2546b
+      internalID: -1147597857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_217
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4d1b89fda501b438e0e78f0e75024a
+      internalID: 795404496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_218
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3611b3ed427e12942b921d7843be14fd
+      internalID: 715755077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_219
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea7ed867166bb84c8fc7d7fa5ab4bf3
+      internalID: 723659803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_220
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b643091b627cffc458301b9635ddd552
+      internalID: 248069411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_221
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00773e5cd4d9bb844adbd40b67d2bcd1
+      internalID: 1154836639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_222
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bc5583524dca54c89185a4a086f223
+      internalID: -649246668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_223
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47adecb3551342b4facaf6e231b550ec
+      internalID: -1316090695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_224
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00cebcfa24529e488a52cbbcf49177e
+      internalID: -1367336417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_225
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80268978a533b7b489c8f596f57e2fa7
+      internalID: -1412463947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_226
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a82218078a82646990e8b8110dbdfc
+      internalID: -521874364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_227
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 162
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1470c4d8c9f21344c888ead24f807c07
+      internalID: -873360471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_228
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ab1b85dc398c245b67e9db8435fb8c
+      internalID: -586582610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_229
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 82
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8b1dcf1eb83c4fa2ca44447e6f166
+      internalID: 1346971646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_230
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 82
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3771e186affcf8f4690aab428efac2cb
+      internalID: 908040251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_231
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 82
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa1fa57482c9b42812a591b978ae7f
+      internalID: -2041231670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_232
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 82
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322e9879b951b0e48a01d1005458a2dc
+      internalID: -1343930383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_233
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 82
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f69d212d9cb8fc4b8cfdb8970629da4
+      internalID: 398215015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_234
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d53001c830694645bb544291699b0c8
+      internalID: -1864522019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_235
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d00117175e64804db555d2a63f69fbb
+      internalID: 1383877108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_236
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546ce2ff002f23646aacaf9be07cf17b
+      internalID: -1445456991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ditzydoofull_237
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895a71d41293734449b2bf2d040243d2
+      internalID: 977278301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 60dea086c99c81a48afb1bb4da23b34d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":30.0,"y":12.0},"gridSpriteSize":{"x":76.0,"y":76.0},"gridSpriteOffset":{"x":2.0,"y":2.0},"gridSpritePadding":{"x":4.0,"y":4.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ditzydoofull_0: 6931255543426057193
+      ditzydoofull_1: 1061217892
+      ditzydoofull_10: -152146668
+      ditzydoofull_100: -1615032853
+      ditzydoofull_101: -502430267
+      ditzydoofull_102: 15897368
+      ditzydoofull_103: -738924142
+      ditzydoofull_104: -137956914
+      ditzydoofull_105: 909505987
+      ditzydoofull_106: 1957367501
+      ditzydoofull_107: 1076976012
+      ditzydoofull_108: 1296167574
+      ditzydoofull_109: 1718259195
+      ditzydoofull_11: -205213109
+      ditzydoofull_110: -2028199079
+      ditzydoofull_111: -1417649667
+      ditzydoofull_112: 128813124
+      ditzydoofull_113: 661746767
+      ditzydoofull_114: 1889333872
+      ditzydoofull_115: -1722072792
+      ditzydoofull_116: -682994082
+      ditzydoofull_117: -558061623
+      ditzydoofull_118: -1116018373
+      ditzydoofull_119: -643084483
+      ditzydoofull_12: 131067579
+      ditzydoofull_120: -1575606188
+      ditzydoofull_121: -777409863
+      ditzydoofull_122: 1151111723
+      ditzydoofull_123: -1095144667
+      ditzydoofull_124: 836883261
+      ditzydoofull_125: -1613409229
+      ditzydoofull_126: -1625396323
+      ditzydoofull_127: -1937166778
+      ditzydoofull_128: 84879322
+      ditzydoofull_129: -1566875539
+      ditzydoofull_13: 1207630131
+      ditzydoofull_130: 1291577152
+      ditzydoofull_131: -1799972587
+      ditzydoofull_132: 201090298
+      ditzydoofull_133: -717026858
+      ditzydoofull_134: -1275321680
+      ditzydoofull_135: -318386037
+      ditzydoofull_136: 1103203679
+      ditzydoofull_137: -1632486066
+      ditzydoofull_138: 603029990
+      ditzydoofull_139: -926814872
+      ditzydoofull_14: 97205144
+      ditzydoofull_140: -1604147431
+      ditzydoofull_141: -1115640611
+      ditzydoofull_142: -1415801094
+      ditzydoofull_143: -1375568222
+      ditzydoofull_144: -311697168
+      ditzydoofull_145: 100659659
+      ditzydoofull_146: -1692862548
+      ditzydoofull_147: 1502502383
+      ditzydoofull_148: 130954165
+      ditzydoofull_149: -614406406
+      ditzydoofull_15: 819765974
+      ditzydoofull_150: -1495575734
+      ditzydoofull_151: 551001636
+      ditzydoofull_152: 1697574537
+      ditzydoofull_153: -1168563733
+      ditzydoofull_154: -2035858881
+      ditzydoofull_155: 27729449
+      ditzydoofull_156: 2065414601
+      ditzydoofull_157: -265749694
+      ditzydoofull_158: -1915932720
+      ditzydoofull_159: -1861915240
+      ditzydoofull_16: 1263962645
+      ditzydoofull_160: 878455092
+      ditzydoofull_161: -711306099
+      ditzydoofull_162: 912284984
+      ditzydoofull_163: -68390360
+      ditzydoofull_164: 216975079
+      ditzydoofull_165: -1362736360
+      ditzydoofull_166: 338619365
+      ditzydoofull_167: -2087602094
+      ditzydoofull_168: -2041500043
+      ditzydoofull_169: -864806705
+      ditzydoofull_17: -1020487720
+      ditzydoofull_170: 983166674
+      ditzydoofull_171: 329650411
+      ditzydoofull_172: -2081176761
+      ditzydoofull_173: 762203712
+      ditzydoofull_174: -1115465380
+      ditzydoofull_175: 1590762856
+      ditzydoofull_176: 940802743
+      ditzydoofull_177: 701313168
+      ditzydoofull_178: -534686828
+      ditzydoofull_179: 768459897
+      ditzydoofull_18: 622172015
+      ditzydoofull_180: 1203137506
+      ditzydoofull_181: 259020707
+      ditzydoofull_182: -2089926936
+      ditzydoofull_183: -1050476764
+      ditzydoofull_184: 312518605
+      ditzydoofull_185: -1549530294
+      ditzydoofull_186: 236082807
+      ditzydoofull_187: -866822406
+      ditzydoofull_188: 965352976
+      ditzydoofull_189: 159196926
+      ditzydoofull_19: 1350436386
+      ditzydoofull_190: -1785742244
+      ditzydoofull_191: -1826913628
+      ditzydoofull_192: 351466507
+      ditzydoofull_193: -423846294
+      ditzydoofull_194: 1234664540
+      ditzydoofull_195: 704229000
+      ditzydoofull_196: 2039530454
+      ditzydoofull_197: -482564911
+      ditzydoofull_198: -988882855
+      ditzydoofull_199: 716617578
+      ditzydoofull_2: 457034388
+      ditzydoofull_20: -1818014049
+      ditzydoofull_200: -2009404169
+      ditzydoofull_201: -545665340
+      ditzydoofull_202: 1070287879
+      ditzydoofull_203: -550669265
+      ditzydoofull_204: -1385017163
+      ditzydoofull_205: -949690568
+      ditzydoofull_206: -519100701
+      ditzydoofull_207: 501114971
+      ditzydoofull_208: 1796454082
+      ditzydoofull_209: -186475004
+      ditzydoofull_21: 1723417128
+      ditzydoofull_210: -1635885357
+      ditzydoofull_211: 1176566914
+      ditzydoofull_212: 614612726
+      ditzydoofull_213: -419916823
+      ditzydoofull_214: -179096851
+      ditzydoofull_215: 1534538907
+      ditzydoofull_216: -1147597857
+      ditzydoofull_217: 795404496
+      ditzydoofull_218: 715755077
+      ditzydoofull_219: 723659803
+      ditzydoofull_22: 1036988267
+      ditzydoofull_220: 248069411
+      ditzydoofull_221: 1154836639
+      ditzydoofull_222: -649246668
+      ditzydoofull_223: -1316090695
+      ditzydoofull_224: -1367336417
+      ditzydoofull_225: -1412463947
+      ditzydoofull_226: -521874364
+      ditzydoofull_227: -873360471
+      ditzydoofull_228: -586582610
+      ditzydoofull_229: 1346971646
+      ditzydoofull_23: -494342202
+      ditzydoofull_230: 908040251
+      ditzydoofull_231: -2041231670
+      ditzydoofull_232: -1343930383
+      ditzydoofull_233: 398215015
+      ditzydoofull_234: -1864522019
+      ditzydoofull_235: 1383877108
+      ditzydoofull_236: -1445456991
+      ditzydoofull_237: 977278301
+      ditzydoofull_24: -402851769
+      ditzydoofull_25: -203138067
+      ditzydoofull_26: -2143542570
+      ditzydoofull_27: 1473109434
+      ditzydoofull_28: -1378380277
+      ditzydoofull_29: 983036732
+      ditzydoofull_3: 9891802
+      ditzydoofull_30: -1176128833
+      ditzydoofull_31: -460987609
+      ditzydoofull_32: -43855928
+      ditzydoofull_33: -636040410
+      ditzydoofull_34: -1637741692
+      ditzydoofull_35: 1400337481
+      ditzydoofull_36: -1197314769
+      ditzydoofull_37: -1928386727
+      ditzydoofull_38: 125766717
+      ditzydoofull_39: -2009751698
+      ditzydoofull_4: -923084237
+      ditzydoofull_40: 1202364247
+      ditzydoofull_41: 898330128
+      ditzydoofull_42: -32957634
+      ditzydoofull_43: 1667343521
+      ditzydoofull_44: 1872799247
+      ditzydoofull_45: -338327589
+      ditzydoofull_46: 1529114059
+      ditzydoofull_47: -638553014
+      ditzydoofull_48: -1202400428
+      ditzydoofull_49: 1008588155
+      ditzydoofull_5: -1016568656
+      ditzydoofull_50: -1538601275
+      ditzydoofull_51: -1211766213
+      ditzydoofull_52: -1161023554
+      ditzydoofull_53: -1383468916
+      ditzydoofull_54: -1517388454
+      ditzydoofull_55: -307339089
+      ditzydoofull_56: 1645703089
+      ditzydoofull_57: 1503861972
+      ditzydoofull_58: 525914071
+      ditzydoofull_59: -577021906
+      ditzydoofull_6: -1526760650
+      ditzydoofull_60: -692578674
+      ditzydoofull_61: 1727662536
+      ditzydoofull_62: -1443820147
+      ditzydoofull_63: -1852779489
+      ditzydoofull_64: 1382493475
+      ditzydoofull_65: 1455597639
+      ditzydoofull_66: -1014317588
+      ditzydoofull_67: -791370238
+      ditzydoofull_68: 484187593
+      ditzydoofull_69: 1742726200
+      ditzydoofull_7: -1929236451
+      ditzydoofull_70: -251827493
+      ditzydoofull_71: 1652384844
+      ditzydoofull_72: -213678137
+      ditzydoofull_73: 1743008740
+      ditzydoofull_74: 1685010749
+      ditzydoofull_75: -844018156
+      ditzydoofull_76: 521355701
+      ditzydoofull_77: 1343605324
+      ditzydoofull_78: 1500924543
+      ditzydoofull_79: 616588014
+      ditzydoofull_8: 1591128370
+      ditzydoofull_80: -1471503657
+      ditzydoofull_81: 1906166913
+      ditzydoofull_82: 114585166
+      ditzydoofull_83: 56856481
+      ditzydoofull_84: 1050102880
+      ditzydoofull_85: 80083039
+      ditzydoofull_86: -1537191420
+      ditzydoofull_87: -241205923
+      ditzydoofull_88: -554078368
+      ditzydoofull_89: 315781902
+      ditzydoofull_9: -1659101842
+      ditzydoofull_90: 1242793746
+      ditzydoofull_91: 800848179
+      ditzydoofull_92: 1571994558
+      ditzydoofull_93: 454885816
+      ditzydoofull_94: 791608658
+      ditzydoofull_95: -675058677
+      ditzydoofull_96: -103660089
+      ditzydoofull_97: 1954628796
+      ditzydoofull_98: 1558144988
+      ditzydoofull_99: -1834532592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
