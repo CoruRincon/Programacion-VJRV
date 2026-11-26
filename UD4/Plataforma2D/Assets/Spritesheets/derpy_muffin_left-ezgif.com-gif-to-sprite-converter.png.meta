@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: d90e7534585644d4d9ac275f852b7618
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -246856540245711151
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_0
+  - first:
+      213: 4835726106306094862
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_1
+  - first:
+      213: -1594630754246743258
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_2
+  - first:
+      213: 1238594959545040561
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_3
+  - first:
+      213: 1124555000609062184
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_4
+  - first:
+      213: -1788283289778193833
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_5
+  - first:
+      213: -2562016315410746004
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_6
+  - first:
+      213: 6823887587305661320
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_7
+  - first:
+      213: 831589693537330357
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_8
+  - first:
+      213: 7870765587476465383
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_9
+  - first:
+      213: 228833192774593585
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_10
+  - first:
+      213: -8041529300138846946
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_11
+  - first:
+      213: 4627755088143434186
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_12
+  - first:
+      213: -3728033630870905024
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_13
+  - first:
+      213: -4281461378457990315
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_14
+  - first:
+      213: -5496458196341362074
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_15
+  - first:
+      213: -250501400372872056
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_16
+  - first:
+      213: -8323655613822752255
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_17
+  - first:
+      213: 6879062348118232728
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_18
+  - first:
+      213: 1009973877670025701
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_19
+  - first:
+      213: 3243323936176833839
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_20
+  - first:
+      213: -4000984183105361624
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_21
+  - first:
+      213: 4732310165043066285
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_22
+  - first:
+      213: -1768360933467984831
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_23
+  - first:
+      213: -3812743482002523853
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_24
+  - first:
+      213: 5018759467862643351
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_25
+  - first:
+      213: 2999749895906220377
+    second: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d62c28d84df29cf0800000000000000
+      internalID: -246856540245711151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 440
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07257dd543fb1340800000000000000
+      internalID: 4835726106306094862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 440
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ba53917cbbed9e0800000000000000
+      internalID: -1594630754246743258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 440
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be7548ad8f503110800000000000000
+      internalID: 1238594959545040561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 440
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d31bd90d83b9f00800000000000000
+      internalID: 1124555000609062184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75af00b92ddbe27e0800000000000000
+      internalID: -1788283289778193833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65ff2b3cb3e17cd0800000000000000
+      internalID: -2562016315410746004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8832d8c2b9153be50800000000000000
+      internalID: 6823887587305661320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b42b2a9b666a8b00800000000000000
+      internalID: 831589693537330357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e647e7c9939a3d60800000000000000
+      internalID: 7870765587476465383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ce520939afc2300800000000000000
+      internalID: 228833192774593585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15145615bfb66090800000000000000
+      internalID: -8041529300138846946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1cb48dbb6193040800000000000000
+      internalID: 4627755088143434186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 264
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fda392a2d534cc0800000000000000
+      internalID: -3728033630870905024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 264
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b05797f813594c0800000000000000
+      internalID: -4281461378457990315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662f9445468a8b3b0800000000000000
+      internalID: -5496458196341362074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c7907bd4a068cf0800000000000000
+      internalID: -250501400372872056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10aa861e15f6c7c80800000000000000
+      internalID: -8323655613822752255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e0a5f32c6577f50800000000000000
+      internalID: 6879062348118232728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e912f204e5240e00800000000000000
+      internalID: 1009973877670025701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f258753afe9920d20800000000000000
+      internalID: 3243323936176833839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8296c066516a978c0800000000000000
+      internalID: -4000984183105361624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5bc52b50b8ca140800000000000000
+      internalID: 4732310165043066285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 88
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c66f5a9158577e0800000000000000
+      internalID: -1768360933467984831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 88
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339bd8ff00a661bc0800000000000000
+      internalID: -3812743482002523853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792d41f352736a540800000000000000
+      internalID: 5018759467862643351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derpy_muffin_left-ezgif.com-gif-to-sprite-converter_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959518013a041a920800000000000000
+      internalID: 2999749895906220377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bfe26b76279645447a2c4dc4b71abcdf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":96.0,"y":88.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_0: -246856540245711151
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_1: 4835726106306094862
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_10: 228833192774593585
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_11: -8041529300138846946
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_12: 4627755088143434186
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_13: -3728033630870905024
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_14: -4281461378457990315
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_15: -5496458196341362074
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_16: -250501400372872056
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_17: -8323655613822752255
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_18: 6879062348118232728
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_19: 1009973877670025701
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_2: -1594630754246743258
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_20: 3243323936176833839
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_21: -4000984183105361624
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_22: 4732310165043066285
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_23: -1768360933467984831
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_24: -3812743482002523853
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_25: 5018759467862643351
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_26: 2999749895906220377
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_3: 1238594959545040561
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_4: 1124555000609062184
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_5: -1788283289778193833
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_6: -2562016315410746004
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_7: 6823887587305661320
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_8: 831589693537330357
+      derpy_muffin_left-ezgif.com-gif-to-sprite-converter_9: 7870765587476465383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -73,10 +73,10 @@ public class PlayerController : MonoBehaviour {
         float xMotion = Input.GetAxisRaw("Horizontal");
 
         if (xMotion > 0.2f) {
-            sr.flipX = false;
+            sr.flipX = true;
         }
         else if (xMotion < -0.2f) {
-            sr.flipX = true;
+            sr.flipX = false;
         }
 
 
@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour {
         // Se aplica la velocidad a las físicas del gameObject que contiene el script
         GetComponent<Rigidbody2D>().linearVelocity = speedVector;
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) {
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftControl)) && isGrounded) {
             // Aplicamos la fuerza física en la coordenada vertical
             rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
 
@@ -94,10 +94,11 @@ public class PlayerController : MonoBehaviour {
 
             dustParticles.transform.position = new Vector2(dustPos.x, dustPos.y - 0.5f);
             dustParticles.Play();
+            
+            SetAnimation("isJumping");
 
             AudioManager.Instance.PlayEffectPlayer("Jump", true);
 
-            SetAnimation("isJumping");
         }
 
         float colliderSizeY = gameObject.GetComponent<Collider2D>().bounds.size.y + offsetRaycast;
@@ -124,7 +125,7 @@ public class PlayerController : MonoBehaviour {
         }
         else {
             isGrounded = false;
-            SetAnimation("isJumping");
+            SetAnimation("InAir");
         }
     }
 

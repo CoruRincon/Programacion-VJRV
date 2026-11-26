@@ -7,7 +7,10 @@ public class CameraController : MonoBehaviour
     private Transform player;
 
     [SerializeField]
-    private float minLimit, maxLimit;
+    private float minLimitX, maxLimitX;
+
+    [SerializeField]
+    private float minLimitY, maxLimitY;
 
     float cameraPosX;
     float cameraPosY;
@@ -21,8 +24,9 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cameraPosX = Mathf.Clamp(player.position.x, minLimit, maxLimit);
+        cameraPosX = Mathf.Clamp(player.position.x, minLimitX, maxLimitX);
+        cameraPosY = Mathf.Clamp(player.position.y, minLimitY, maxLimitY);
 
-        transform.position = new Vector3 (cameraPosX, transform.position.y, transform.position.z);
+        transform.position = new Vector3 (cameraPosX, cameraPosY, transform.position.z);
     }
 }
