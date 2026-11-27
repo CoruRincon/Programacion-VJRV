@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -14,7 +15,13 @@ public class EnemyController : MonoBehaviour
     [SerializeField]
     LayerMask groundLayer;
 
+    [SerializeField]
+    float heightOffset;
+
     bool stomped = false;
+
+    [SerializeField]
+    string deadSound;
 
     public void Start() {
         // Obtenemos la posición original del enemigo
@@ -67,7 +74,9 @@ public class EnemyController : MonoBehaviour
 
             Vector2 playerPos = other.transform.position;
 
-            if (playerPos.y <= transform.position.y + 0.5f && !other.transform.GetComponent<PlayerController>().hasStarPower) {
+            if (playerPos.y <= transform.position.y + heightOffset && !other.transform.GetComponent<PlayerController>().hasStarPower) {
+                Debug.Log("Dead");
+                GetComponent<CompositeCollider2D>().isTrigger = true;
                 AudioManager.Instance.PlayEffect("PlayerHit", false);
                 other.transform.GetComponent<PlayerController>().Die();
                 SCManager.Instance.LoadScene("GameOver", 5.0f);
@@ -75,20 +84,17 @@ public class EnemyController : MonoBehaviour
                 return; 
             }
 
-            GetComponent<Animator>().SetTrigger("stomped");
+            if (TryGetComponent<Animator>(out Animator anim)) {
+                anim.SetTrigger("stomped");
+                AudioManager.Instance.PlayEffect(deadSound, false);
+                speed = 0;
+                stomped = true;
+                gameObject.layer = LayerMask.NameToLayer("Ground");
 
-            AudioManager.Instance.PlayEffect("GoombaDead", false);
-
-            speed = 0;
-
-            stomped = true;
-
-            gameObject.layer = LayerMask.NameToLayer("Ground");
-
-            GetComponent<BoxCollider2D>().size = new Vector2(GetComponent<BoxCollider2D>().size.x, 0.45f);
-            GetComponent<BoxCollider2D>().offset = new Vector2(GetComponent<BoxCollider2D>().offset.x, -.25f);
-
-            Destroy(gameObject, 1.5f);
+                GetComponent<BoxCollider2D>().size = new Vector2(GetComponent<BoxCollider2D>().size.x, 0.45f);
+                GetComponent<BoxCollider2D>().offset = new Vector2(GetComponent<BoxCollider2D>().offset.x, -.25f);
+                Destroy(gameObject, 1.5f);
+            }
         }
     }
 }

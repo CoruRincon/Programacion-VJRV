@@ -9,6 +9,8 @@ TagManager:
   - Coin
   - Ground
   - SurpriseBlock
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX

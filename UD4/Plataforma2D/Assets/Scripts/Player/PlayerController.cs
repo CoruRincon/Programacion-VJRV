@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     float fuerzaSalto = 1f;
 
+    [SerializeField]
+    float jumpLock;
 
     [SerializeField]
     float offsetRaycast = 1f;
@@ -37,6 +39,12 @@ public class PlayerController : MonoBehaviour {
 
     bool mapActive = false;
 
+    bool isJumping;
+
+    Animator anim;
+    AnimatorControllerParameter[] animParams;
+    string currentAnim = "";
+
     private readonly Color[] rainbow =
     {
         Color.red,
@@ -48,16 +56,13 @@ public class PlayerController : MonoBehaviour {
         new Color(0.56f, 0f, 1f)     // Violet
     };
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
-        if (sr == null)
-            sr = GetComponent<SpriteRenderer>();
-
-        if (rb == null)
-            rb = GetComponent<Rigidbody2D>();
+        if (sr == null) sr = GetComponent<SpriteRenderer>();
+        if (rb == null) rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        animParams = anim.parameters;
     }
 
-    // Update se llama una vez por cada frame
     private void Update() {
         if (Input.GetKeyDown(KeyCode.M)) {
             if (mapActive) {
@@ -84,21 +89,21 @@ public class PlayerController : MonoBehaviour {
         Vector2 speedVector = new Vector2(xMotion * motionVelocity, rb.linearVelocityY);
 
         // Se aplica la velocidad a las físicas del gameObject que contiene el script
-        GetComponent<Rigidbody2D>().linearVelocity = speedVector;
+        rb.linearVelocity = speedVector;
 
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftControl)) && isGrounded) {
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftControl)) && (isGrounded && !isJumping)) {
             // Aplicamos la fuerza física en la coordenada vertical
             rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
 
             Vector2 dustPos = transform.position;
 
-            dustParticles.transform.position = new Vector2(dustPos.x, dustPos.y - 0.5f);
+            dustParticles.transform.position = new Vector2(dustPos.x, dustPos.y);
             dustParticles.Play();
             
             SetAnimation("isJumping");
+            StartCoroutine(JumpLock());
 
             AudioManager.Instance.PlayEffectPlayer("Jump", true);
-
         }
 
         float colliderSizeY = gameObject.GetComponent<Collider2D>().bounds.size.y + offsetRaycast;
@@ -109,23 +114,20 @@ public class PlayerController : MonoBehaviour {
         // y que termine en donde indique el segundo parámetro del método DrawLine()
         Debug.DrawLine(raycastOrigin, raycastEnd, Color.black);
 
-        RaycastHit2D hit = Physics2D.Raycast(raycastOrigin, Vector2.down, rayLength, groundLayer);
-        RaycastHit2D hitRight = Physics2D.Raycast(raycastOrigin - Vector2.right, Vector2.down, rayLength, groundLayer);
-        RaycastHit2D hitLeft = Physics2D.Raycast(raycastOrigin - Vector2.left, Vector2.down, rayLength, groundLayer);
+        float side = rayRadius.x;   // try 0.2 to 0.4, depending on your sprite width
+        bool grounded =
+            Physics2D.Raycast(raycastOrigin, Vector2.down, rayLength, groundLayer) ||
+            Physics2D.Raycast(raycastOrigin + Vector2.right * side, Vector2.down, rayLength, groundLayer) ||
+            Physics2D.Raycast(raycastOrigin + Vector2.left * side, Vector2.down, rayLength, groundLayer);
 
-        if (hit || hitLeft || hitRight) {
+        if (grounded) {
             isGrounded = true;
-
-            if (Mathf.Abs(xMotion) > 0) {
-                SetAnimation("isWalking");
-            }
-            else {
-                SetAnimation("");
-            }
+            if (isJumping) return;
+            SetAnimation(Mathf.Abs(xMotion) > 0 ? "isWalking" : "");
         }
         else {
             isGrounded = false;
-            SetAnimation("InAir");
+            if (!isJumping) SetAnimation("InAir");
         }
     }
 
@@ -133,24 +135,21 @@ public class PlayerController : MonoBehaviour {
     // Método que desactiva todos los parámetros del Animator y activa uno concreto
     // -----------------------------------------------------------------------------
     void SetAnimation(string name) {
+        if (name == currentAnim) return;   // nothing changed, don't touch the Animator
+        currentAnim = name;
 
-        // Obtenemos todos los parámetros del Animator
-        AnimatorControllerParameter[] parametros = GetComponent<Animator>().parameters;
+        foreach (var p in animParams)
+            if (p.type == AnimatorControllerParameterType.Bool)  // skips the IsDying trigger
+                anim.SetBool(p.name, false);
 
-        // Recorremos todos los parámetros y los ponemos a false
-        foreach (var item in parametros) GetComponent<Animator>().SetBool(item.name, false);
-
-        if(name != "")
-            GetComponent<Animator>().SetBool(name, true);
-
+        if (name != "") anim.SetBool(name, true);
     }
 
     public void Die() {
-        SetAnimation("");
-        transform.rotation = Quaternion.Euler(new Vector3 (0f, 0f, 90f));
+        anim.SetTrigger("IsDying");
         Vector2 bloodPos = transform.position;
 
-        bloodParticles.transform.position = new Vector2(bloodPos.x, bloodPos.y - 0.5f);
+        bloodParticles.transform.position = new Vector2(bloodPos.x, bloodPos.y);
         bloodParticles.Play();
 
         rb.bodyType = RigidbodyType2D.Static;
@@ -170,6 +169,12 @@ public class PlayerController : MonoBehaviour {
                 AudioManager.Instance.PlayEffect("Collect", false);
                 GameManager.Instance.AddPoint(1);
                 other.enabled = false;
+                Destroy(other.gameObject);
+                break;
+
+            case "Key":
+                AudioManager.Instance.PlayEffect("Collect", false);
+                other.GetComponent<Key>().OpenDoor();
                 Destroy(other.gameObject);
                 break;
 
@@ -199,8 +204,12 @@ public class PlayerController : MonoBehaviour {
         AudioManager.Instance.PlayMusic("GameMusic");
         hasStarPower = false;
 
-        StopCoroutine(StarColors());
-
         sr.color = Color.white;
+    }
+
+    private IEnumerator JumpLock() {
+        isJumping = true;
+        yield return new WaitForSeconds(jumpLock);
+        isJumping = false;
     }
 }

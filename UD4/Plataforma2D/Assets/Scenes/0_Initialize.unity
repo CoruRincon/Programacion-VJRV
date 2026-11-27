@@ -182,8 +182,10 @@ MonoBehaviour:
     effectSound: {fileID: 8300000, guid: ce0f220e1c4eae74eb747ca33c9dac93, type: 3}
   - name: PlayerHit
     effectSound: {fileID: 8300000, guid: 24e4ef0a5ff32904aacea0ee1fd50e96, type: 3}
-  - name: GoombaDead
+  - name: EnemyDead
     effectSound: {fileID: 8300000, guid: 89e926b305ec2a44dbee047d8661ac1f, type: 3}
+  - name: Muffin
+    effectSound: {fileID: 8300000, guid: dcc2cdb19d9611143aae8bb3886ffd50, type: 3}
   musicEnabled: 1
   masterVolume: 1
   musicVolume: 1
